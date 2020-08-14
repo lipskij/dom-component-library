@@ -3,11 +3,11 @@ import { typeScale } from '../utils';
 import { applyStyleModifiers } from 'styled-components-modifiers';
 
 const BUTTON_MODIFIERS = {
-  small: ({ props }) => `
+  small: () => `
     font-size: ${typeScale.helperText};
     padding: 8px;
   `,
-  large: ({ props }) => `
+  large: () => `
     font-size: ${typeScale.header5};
     padding: 16px 24px;
   `,
